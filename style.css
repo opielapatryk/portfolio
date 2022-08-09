@@ -46,12 +46,21 @@ nav ul a{
     height: 100px;
     transition: line-height .2s,font-size .2s;
     line-height: 100px;
+    font-size: .6em;
     width: 100%;
-    word-wrap: break-word;
 }
 a:hover{
     line-height: 90px;
     transition: line-height .2s, font-size .2s;
-    font-size: 1.1em;
+    font-size: .8em;
     text-shadow: #b99bdc 7px 7px 5px;
+}
+
+@media screen and (min-width: 480px) {
+    nav ul a {
+            font-size: .8em;
+        }
+    a:hover {
+        font-size: 1em;
+    }
 }
