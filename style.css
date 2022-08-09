@@ -47,6 +47,7 @@ nav ul a{
     transition: line-height .2s,font-size .2s;
     line-height: 100px;
     width: 100%;
+    word-wrap: break-word;
 }
 a:hover{
     line-height: 90px;
