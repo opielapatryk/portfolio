@@ -10,10 +10,8 @@
 }
 @media screen and (min-width: 480px) {
     #slider{
-        height:50%;
+        height:24.6vw;
         width: 50vw;
-        background-repeat: no-repeat;
-        background-size:contain;
     }
 }
 button {
