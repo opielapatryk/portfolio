@@ -1,6 +1,8 @@
 #slider {
     background-image: url("./1.png");
-    height: 60vw;
+    background-size: contain;
+    height:34vw;
+    background-repeat: no-repeat;
     width: 100%;
     display: flex;
     justify-content: space-between;
