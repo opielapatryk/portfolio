@@ -1,7 +1,6 @@
 @media screen and (max-width: 780px) {
     .menu {
-                height: 50px;
-                
+                height: 20px;
       }
       svg{
         width: 50px;
