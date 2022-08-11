@@ -9,7 +9,8 @@
 }
 .menu {
     background-color: transparent;
-    border: none;
+        align-items: center;
+          border: none;
     cursor: pointer;
     display: flex;
     padding: 0;
