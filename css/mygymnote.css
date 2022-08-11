@@ -1,54 +1,16 @@
-#slider {
-    background-image: url("../images/1.png");
-    background-size: contain;
+.slider {
     height:34vw;
-    background-repeat: no-repeat;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transition: background 1s linear;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 0.5s linear;
 }
+.hidden{
+    opacity: 0;
+}
+
 @media screen and (min-width: 480px) {
     #slider{
         height:24.6vw;
         width: 50vw;
     }
-}
-button {
-    cursor: pointer;
-
-}
-
-.btn-left,
-.btn-right {
-    height: 30vh;
-    width: 1vw;
-    opacity: 0.5;
-}
-
-article {
-    text-align: center;
-    align-self: center;
-    line-height: 7em;
-}
-
-.pagination button {
-    padding: 8px 16px;
-    opacity: 1;
-}
-
-.pagination button:hover {
-    opacity: 0.5;
-    color: white;
-    transition: opacity 2s;
-}
-
-.animation button {
-    padding: 8px 16px;
-    opacity: 1;
-}
-
-.animation button:hover {
-    opacity: 0.5;
-    color: white;
 }
