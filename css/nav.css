@@ -14,8 +14,10 @@ body{
 nav{
     background: linear-gradient(to right, #1b3a83, #150e3b);
     box-shadow: #220e3b 0px 0px 10px 2px;
-    position: sticky;
-    top: 0;
+    position:fixed;
+    z-index: 10000;
+    top: 0px;
+    transition: top 0.3s;
     width: 100%;
 }
 

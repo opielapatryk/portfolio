@@ -1,6 +1,8 @@
 main{
     position: absolute;
+    top: 100px;
     margin-left: 5vw;
+    height: 100vh;
 }
 
 section{
