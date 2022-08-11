@@ -1,4 +1,10 @@
-  .menu {
+@media screen and (max-width: 780px) {
+      svg{
+        width: 50px;
+        height: 50px;
+      }
+}
+.menu {
     background-color: transparent;
     border: none;
     cursor: pointer;
