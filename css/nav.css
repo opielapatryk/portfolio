@@ -8,7 +8,6 @@
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
-    /* background-color: #eaedf2; */
 }
 
 nav{
@@ -21,7 +20,7 @@ nav{
     width: 100%;
 }
 
-/* .hoverul:hover{
+.hoverul:hover{
     background: linear-gradient(to right, #1b3a83, #150e3b);
     box-shadow: #220e3b 0px 0px 10px 2px;
     position: fixed;
@@ -34,7 +33,7 @@ nav{
 @keyframes topulhover {
     from{top: -90px;}
     to{top: 0px;}
-} */
+}
 nav ul{
         display: flex;
     align-items: center;
