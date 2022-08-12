@@ -22,7 +22,7 @@ menu.addEventListener('click',(e)=>{
   setTimeout(() => {
       menu.style.display = 'none'
       buttons.style.display = 'block'
-    }, 1000);
+    }, 500);
 } else{
   menu.style.display = 'none'
       buttons.style.display = 'block'
