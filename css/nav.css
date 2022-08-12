@@ -11,6 +11,8 @@ body{
 }
 
 nav{
+    /* stary kolor */
+    /* background: linear-gradient(to right, #1b3a83, #150e3b);  */
     background: linear-gradient(to right, rgb(0, 115, 255), green);
     box-shadow: #220e3b 0px 0px 10px 2px;
     position:fixed;
