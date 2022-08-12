@@ -5,4 +5,4 @@ function chngimg() {
         e.classList.toggle('hidden')
     })
 }
-setInterval(chngimg,2000)
+setInterval(chngimg,3000)

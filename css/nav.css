@@ -21,8 +21,22 @@ nav{
     width: 100%;
 }
 
+.hoverul:hover{
+    background: linear-gradient(to right, #1b3a83, #150e3b);
+    box-shadow: #220e3b 0px 0px 10px 2px;
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    width: 100%;
+    animation: topulhover .5s;
+}
+
+@keyframes topulhover {
+    from{top: -90px;}
+    to{top: 0px;}
+}
 nav ul{
-    display: flex;
+        display: flex;
     align-items: center;
     justify-content: space-around;
 }
