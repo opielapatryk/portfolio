@@ -2,18 +2,15 @@ const darkmode = document.querySelector('.dark-mode')
 const body = document.querySelector('body')
 const nav = document.querySelector('nav')
 const ul = document.querySelector('ul')
-const ulhover = document.querySelector('.hoverul:hover')
 document.addEventListener('DOMContentLoaded', ()=>{
     if(localStorage.getItem('mode') == 'light'){
             nav.style.boxShadow = '#b9d0ff 0 0 20px 5px'
             nav.style.background = 'linear-gradient(to right, rgb(0, 115, 255), green)'
-            ulhover.style.background = 'linear-gradient(to right, rgb(0, 115, 255), green)'
             body.style.background = '#fff'
             darkmode.innerHTML = 'Tryb Ciemny'
         } else {
             nav.style.boxShadow = '#06193e 0 0 100px 5px'
             nav.style.background = 'linear-gradient(to right, rgb(0, 43, 95), rgb(0, 71, 0))'
-            ulhover.style.background = 'linear-gradient(to right, rgb(0, 43, 95), rgb(0, 71, 0))'
             body.style.background = '#eaedf2'
             darkmode.innerHTML = 'Tryb Jasny'
         }
