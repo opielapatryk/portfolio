@@ -10,7 +10,7 @@ const doswiadczenie =document.querySelector('#doswiadczenie')
 const omniee = document.querySelector('#omnie')
 const dalszecele = document.querySelector('#mojecele')
 document.addEventListener('DOMContentLoaded', ()=>{
-    if(localStorage.getItem('language') == 'english'){
+    if(localStorage.getItem('language') != 'english'){
             projekty.innerHTML = '<li>Projects</li>'
             wtrakcie.innerHTML = '<li>In progress</li>'
             dos.innerHTML = '<li>Expirience</li>'
